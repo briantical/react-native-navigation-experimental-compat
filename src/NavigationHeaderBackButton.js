@@ -42,7 +42,7 @@ type Props = {
 
 const NavigationHeaderBackButton = (props: Props) => (
   <TouchableOpacity style={[styles.buttonContainer, props.style]} onPress={props.onPress}>
-    <Image style={[styles.button, props.imageStyle]} source={require('./assets/back-icon.png')} />
+    <Image style={[styles.button, props.imageStyle]} source={require('./assets/back-icon@2x.android.png')} />
   </TouchableOpacity>
 );
 
